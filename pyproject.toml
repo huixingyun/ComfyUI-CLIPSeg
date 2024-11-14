@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-clipseg"
+description = "The CLIPSeg node generates a binary mask for a given input image and text prompt."
+version = "1.1.0"
+license = "LICENSE"
+dependencies = ["matplotlib", "matplotlib-inline", "numpy", "open-clip-torch", "opencv-python", "Pillow", "pytorch-lightning", "torch", "torchaudio", "torchdiffeq", "torchmetrics", "torchsde", "torchvision", "transformers"]
+
+[project.urls]
+Repository = "https://github.com/alessandrozonta/ComfyUI-CLIPSeg"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "alezonta"
+DisplayName = "ComfyUI-CLIPSeg"
+Icon = ""
