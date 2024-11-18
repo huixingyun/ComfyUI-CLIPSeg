@@ -12,5 +12,5 @@ torchdiffeq
 torchmetrics
 torchsde
 torchvision
-transformers
+transformers==4.45.0
 
